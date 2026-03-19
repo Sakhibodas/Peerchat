@@ -1,6 +1,8 @@
 # 💬 PeerChat - Secure Messaging Application
 
-PeerChat is a secure chat application that enables real-time messaging and file sharing between users. The system is designed with encryption, compression, and database integration to ensure secure and efficient communication.
+PeerChat is a secure chat application that enables real-time messaging and file sharing between users. It is designed with encryption, compression, and database integration to ensure secure and efficient communication.
+
+---
 
 ## 🚀 Features
 
@@ -12,6 +14,8 @@ PeerChat is a secure chat application that enables real-time messaging and file 
 * 🗄️ Chat history stored using MySQL database
 * 🖥️ User-friendly GUI built with Tkinter
 
+---
+
 ## 🛠️ Tech Stack
 
 * **Language:** Python
@@ -21,54 +25,62 @@ PeerChat is a secure chat application that enables real-time messaging and file 
 * **Database:** MySQL
 * **Compression:** zlib
 
+---
 
 ## 📂 Project Structure
-'''
-peerchat/
-│── server.py
-│── client.py
-│── chat.py
-│── login.py
-│── compression_utils.py
-│── encryption_utils.py
-│── README.md
-'''
 
+```
+peerchat/
+│
+├── server.py
+├── client.py
+├── chat.py
+├── login.py
+├── compression_utils.py
+├── encryption_utils.py
+├── README.md
+```
+
+---
 
 ## ⚙️ How to Run the Project
 
 1. Install required libraries:
-pip install cryptography mysql-connector-python
 
+```
+pip install cryptography mysql-connector-python
+```
 
 2. Setup MySQL database:
 
 * Create a database named `peer_chat`
-* Create required tables (users, logs)
+* Create required tables (`users`, `logs`)
 
 3. Start the server:
+
+```
 python server.py
+```
 
 4. Run the client:
-python client.py
 
+```
+python client.py
+```
 
 5. Login and start chatting 🎉
 
+---
 
-## 📸 Screenshots
-
-(Add your screenshots here)
-
-```
 ## 📸 Screenshots
 
 ### Chat UI
+
 ![Chat](screenshots/chat.png)
 
 ### Login Page
-![Login](screenshots/peerchat login.png)
-```
+
+![Login](screenshots/peerchat_login.png)
 
 ---
 
